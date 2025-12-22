@@ -1,4 +1,5 @@
 /* Write a program that computes the volume of a sphere with a 10-meter radius */
+/* After, modify it so that it prompts the user to enter the radius of the sphere */
 
 #include <stdio.h>
 
