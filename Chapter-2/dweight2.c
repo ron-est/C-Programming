@@ -1,6 +1,8 @@
 /* Computes the dimensional weight of a box from input provided by the user */
 
 #include <stdio.h>
+// Declared the constant 166 with a macro definition 
+#define INCHES_PER_POUND 166
 
 int main(void)
 {
@@ -13,7 +15,7 @@ int main(void)
     printf("Enter width of box: ");
     scanf("%d", &width);
     volume = height * length * width;
-    weight = (volume + 165) / 166;
+    weight = (volume + INCHES_PER_POUND - 1) / INCHES_PER_POUND;
 
     printf("Volume (cubic inches): %d\n", volume);
     printf("Dimensional weight (pounds): %d\n", weight);
