@@ -1,4 +1,4 @@
-// Write ap rogram that asks the user to enter a dollars-and-cents amount
+// Write a program that asks the user to enter a dollars-and-cents amount
 // Then displays the amount with 5% tax added
 
 #include <stdio.h>
