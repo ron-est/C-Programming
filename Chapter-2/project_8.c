@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-#define DECIMAL_CONVERSION .01
+#define DECIMAL_CONVERSION .01f
 #define MONTHS_IN_YEAR 12
 
 int main(void)
