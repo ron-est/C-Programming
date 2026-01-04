@@ -12,4 +12,6 @@ int main(void)
     printf("%.4f\n", 83.162);
     // 1e-06
     printf("%-6.2g\n", .0000009979);
+
+    return 0;
 }
