@@ -4,7 +4,9 @@
 
 int main(void)
 {
+    float exponent_number = 1234.567;
     // Exponential notation; left-justified in a field of size 8; one digit after the decimal point
+    printf("%-8.1e\n", exponent_number);
 
 
     // Exponential notation; right-justtified in a field of size 10; six digits after the decimal point
