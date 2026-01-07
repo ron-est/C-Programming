@@ -10,7 +10,7 @@ int main(void)
 
 
     // Exponential notation; right-justtified in a field of size 10; six digits after the decimal point
-
+    printf("%10.6e\n", exponent_number);
 
     // Fixed decimal notation; left-justified in a field of size 8; three digits after the decimal point
 
